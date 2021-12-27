@@ -1,0 +1,16 @@
+{
+    "columns": [
+        {
+            "id": 1,
+            "title": "Not Started"
+        },
+        {
+            "id": 2,
+            "title": "In Progess"
+        },
+        {
+            "id": 3,
+            "title": "Completed"
+        }
+    ]
+}
