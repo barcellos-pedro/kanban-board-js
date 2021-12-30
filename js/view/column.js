@@ -12,6 +12,7 @@ export default class Column {
         this.elements.title = this.elements.root.querySelector(".kanban__column-title");
         this.elements.items = this.elements.root.querySelector(".kanban__column-items");
         this.elements.addItem = this.elements.root.querySelector(".kanban__add-item");
+        this.elements.addItem.setAttribute('title', 'Adicionar tarefa');
         this.elements.root.dataset.id = id;
         this.elements.title.textContent = title;
         this.elements.items.appendChild(TOP_DROP_ZONE);

@@ -9,6 +9,7 @@ export default class Item {
         this.elements = {};
         this.elements.root = Item.createRoot();
         this.elements.input = this.elements.root.querySelector(".kanban__item-input");
+        this.elements.input.setAttribute('title', 'Segure e arraste para mover.\nDois cliques para deletar.')
         this.elements.root.dataset.id = id;
         this.elements.input.textContent = content;
         this.content = content;
